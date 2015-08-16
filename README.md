@@ -3,7 +3,7 @@
 ## Introduction
 This repo is for tracking the infrastructure-as-code that will enable **automated** multi-platform testing, specifically the multi-platform aspect of that.
 
-The concept is to make a reproducible environment for a developer to run the same program automatically on a number of platforms (probably using virtual machines).
+The concept is to make a reproducible environment for a developer to run the same program automatically on a number of platforms (probably using virtual machines). More importantly, they will be able to login to an environment where a problem has arisen and immediately experiment with a fix, leading to a fast dev-cycle.
 
 ## Terminology
 * wrapper: virtualisation wrapper (vagrant looks good for this)
